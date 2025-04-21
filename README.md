@@ -1,6 +1,8 @@
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=22&duration=4000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=650&height=60&lines=🚗+VEHICLE+BLACKLIST+CHAIN;🌐+Secured+on+Hyperledger+Fabric;🔐+Transparent+%7C+Tamper-Proof+%7C+Decentralized" alt="Typing SVG" />
+</div>
 
-#VEHICLEBLACKLISTCHAIN
 
 <div align="center">
   <img 
