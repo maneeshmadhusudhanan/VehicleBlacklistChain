@@ -2,7 +2,21 @@
 Project: Hyperledger Fabric Network
 
 
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00G000&width=435&lines=VEHICLE BLACKLIST CHAIN" alt="Typing SVG" />
+
+
+
+<div align="center">
+  <img 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=2000&pause=800&color=FF007F&center=true&vCenter=true&width=600&height=60&lines=🚨+VEHICLE+BLACKLIST+CHAIN+🚨;Secure+and+Tamper-proof+Ledger;Powered+by+Blockchain+Technology" 
+    alt="Typing SVG" 
+  />
+</div>
+
+
+
+
+
+<div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F000&width=435&lines=VEHICLE BLACKLIST CHAIN" alt="Typing SVG" />
 
   
 
