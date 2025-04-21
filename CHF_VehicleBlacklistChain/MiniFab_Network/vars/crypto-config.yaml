@@ -1,0 +1,58 @@
+---
+OrdererOrgs:
+  - Name: auto.com
+    Domain: auto.com
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - 192.168.126.192
+      - Hostname: orderer2
+        SANS:
+          - 192.168.126.192
+      - Hostname: orderer3
+        SANS:
+          - 192.168.126.192
+
+PeerOrgs:
+  - Name: dealer.auto.com
+    Domain: dealer.auto.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.dealer.auto.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.dealer.auto.com
+        SANS:
+          - 192.168.126.192
+  - Name: mvd.auto.com
+    Domain: mvd.auto.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.mvd.auto.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.mvd.auto.com
+        SANS:
+          - 192.168.126.192
+  - Name: owner.auto.com
+    Domain: owner.auto.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.owner.auto.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.owner.auto.com
+        SANS:
+          - 192.168.126.192
