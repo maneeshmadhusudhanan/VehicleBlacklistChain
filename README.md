@@ -1,36 +1,22 @@
 
 
-
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=FFFFFF20&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%9A%97+VEHICLE+BLACKLIST+CHAIN?v=3" alt="Vehicle Blacklist Chain" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=FFFFFF20&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%9A%97+VEHICLE+BLACKLIST+CHAIN?" alt="Vehicle Blacklist Chain" />
 </p>
 
 
 
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&duration=3000&pause=1000&color=FF007F&background=FFB3D899&center=true&vCenter=true&width=800&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN;%F0%9F%94%90_Trusted+%7C+Immutable+%7C+Decentralized_%F0%9F%94%92" alt="Header">
-</div>
-
->
-
-
-
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=700&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN" alt="Typing Animation" />
-</p>
 
 
 
 <div align="center">
   <br>
-    <img src="https://img.shields.io/badge/Blockchain-3DDC84?style=for-the-badge&logo=blockchain-dot-com&logoColor=white">
   <img src="https://img.shields.io/badge/hyperledger-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white">
   <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
   <img src="https://img.shields.io/badge/CouchDB-EA4C89?style=for-the-badge&logo=couchdb&logoColor=white">
+  <img src="https://img.shields.io/badge/Blockchain-3DDC84?style=for-the-badge&logo=blockchain-dot-com&logoColor=white">
 </div>
 
 <div align="center">
@@ -180,6 +166,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<div align="center" style="margin-top: 40px;"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Project%20Visitors&color=ff007f&style=flat" alt="Visitor counter"> <br> <p style="color: #888;">Made developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;"> <img src="https://img.icons8.com/color/48/000000/hyperledger.png" width="40"> <img src="https://img.icons8.com/color/48/000000/golang.png" width="40"> <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"> </div> </div>
+<div align="center" style="margin-top: 40px;"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Project%20Visitors&color=ff007f&style=flat" alt="Visitor counter"> <br> <p style="color: #888;">Made By Developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;"> <img src="https://img.icons8.com/color/48/000000/hyperledger.png" width="40"> <img src="https://img.icons8.com/color/48/000000/golang.png" width="40"> <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"> </div> </div>
 
 
