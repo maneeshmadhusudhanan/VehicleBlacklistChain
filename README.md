@@ -1,7 +1,11 @@
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=4000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=650&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN;🌐+Secured+on+Hyperledger+Fabric;🔐+Transparent+%7C+Tamper-Proof+%7C+Decentralized" alt="Typing SVG" />
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=700&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN;🌐+Secured+on+Hyperledger+Fabric;🔐+Transparent+%7C+Tamper-Proof+%7C+Decentralized;⚙️+Built+with+GoLang+%7C+React.js+%7C+Fabric+CA"
+    alt="Typing SVG" 
+  />
 </div>
+
 
 <div align="center">
   <br>
