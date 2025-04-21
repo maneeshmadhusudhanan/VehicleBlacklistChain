@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=FFFFFF20&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%9A%97+VEHICLE+BLACKLIST+CHAIN?" alt="Vehicle Blacklist Chain" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=34&duration=3000&pause=1000&color=FF007F&background=FFFFFF20&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%9A%97+VEHICLE+BLACKLIST+CHAIN" alt="Vehicle Blacklist Chain" />
 </p>
 
 
