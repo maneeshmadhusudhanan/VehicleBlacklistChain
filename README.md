@@ -1,144 +1,100 @@
-
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=4000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=650&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN;🌐+Secured+on+Hyperledger+Fabric;🔐+Transparent+%7C+Tamper-Proof+%7C+Decentralized" alt="Typing SVG" /> </div>
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=22&duration=4000&pause=1000&color=FF007F&background=00000000&center=true&vCenter=true&width=650&height=60&lines=🚗+VEHICLE+BLACKLIST+CHAIN;🌐+Secured+on+Hyperledger+Fabric;🔐+Transparent+%7C+Tamper-Proof+%7C+Decentralized" alt="Typing SVG" />
+
+Hyperledger
+Go
+Docker
+CouchDB
 </div>
+<div align="center"> <a href="#-project-overview">Overview</a> • <a href="#-key-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-getting-started">Setup</a> • <a href="#-demo">Demo</a> • <a href="#-license">License</a> </div>
+🌟 Project Overview
+<p align="center" style="font-size: 18px; color: #FF69B4;"> <em>"A blockchain-powered solution for immutable vehicle blacklisting and recovery management"</em> </p><div style="background: linear-gradient(145deg, #1a1a1a, #2a2a2a); padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(255,0,127,0.2);"> <h3 style="color: #FF007F; border-bottom: 2px dashed #FF007F; padding-bottom: 8px;">🚨 Problem Statement</h3>
 
+Traditional vehicle blacklist systems suffer from:
 
-<div align="center">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=2000&pause=800&color=FF007F&center=true&vCenter=true&width=600&height=60&lines=🚨+VEHICLE+BLACKLIST+CHAIN+🚨;Secure+and+Tamper-proof+Ledger;Powered+by+Blockchain+Technology" 
-    alt="Typing SVG" 
-  />
+    ❌ Centralized control points
+
+    ❌ Vulnerability to data tampering
+
+    ❌ Lack of transparent audit trails
+
+<h3 style="color: #00FF7F; border-bottom: 2px dashed #00FF7F; padding-bottom: 8px; margin-top: 25px;">💡 Our Solution</h3>
+
+    ✅ <span style="color: #FFD700;">Decentralized</span> authority using Hyperledger Fabric
+
+    ✅ <span style="color: #00BFFF;">Immutable</span> record-keeping with blockchain
+
+    ✅ <span style="color: #FF69B4;">Real-time</span> event tracking and notifications
+
 </div>
-
-
-
-🚗 Project Overview
-
-Title: VehicleBlacklistChain
-
-Tagline: "Tamper-proof vehicle blacklisting and recovery system using Hyperledger Fabric."
-
-✨ Why This Project?
-
-VehicleBlacklistChain provides a decentralized way to report, track, and remove blacklisted vehicles using a permissioned blockchain. It enhances:
-
-✅ Security: Tamper-proof audit history.
-
-✅ Transparency: Clear role-based access for stakeholders.
-
-✅ Automation: Instant event triggers and seamless flow.
-
-📊 Key Highlights
-
-🔗 Blockchain-powered trust with Hyperledger Fabric.
-
-👤 Role-based Access Control (ABAC) using MSP IDs.
-
-✨ Live Event Tracking:
-
-VehicleBlacklistedEvent
-
-VehicleRecoveredEvent
-
-📃 Full Vehicle Audit History using Fabric ledger state and history APIs.
-
-👥 Target Users
-
-Auto Manufacturers
-
-Dealerships
-
-Government Transport Bodies (MVD)
-
-Blockchain Developers / Enthusiasts
-
-🛠 Architecture Overview
+✨ Key Features
+<div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px;"><div style="background: #1a1a1a; padding: 20px; border-radius: 12px; border-left: 4px solid #FF007F;"> <h3 style="color: #FF007F;">🔐 Role-Based Access</h3> <p style="color: #CCCCCC;">Granular permissions through MSP IDs:</p> <ul style="color: #AAAAAA;"> <li>Manufacturers: Vehicle registration</li> <li>Dealers: Stolen reporting</li> <li>MVD: Blacklist management</li> </ul> </div><div style="background: #1a1a1a; padding: 20px; border-radius: 12px; border-left: 4px solid #00FF7F;"> <h3 style="color: #00FF7F;">📜 Audit Trail</h3> <p style="color: #CCCCCC;">Complete history tracking:</p> <ul style="color: #AAAAAA;"> <li>Full vehicle lifecycle records</li> <li>SHA-256 hashed transactions</li> <li>Queryable through CouchDB</li> </ul> </div><div style="background: #1a1a1a; padding: 20px; border-radius: 12px; border-left: 4px solid #FFD700;"> <h3 style="color: #FFD700;">⚡ Smart Events</h3> <p style="color: #CCCCCC;">Real-time notifications:</p> <ul style="color: #AAAAAA;"> <li>VehicleBlacklistedEvent</li> <li>VehicleRecoveredEvent</li> <li>Custom event listeners</li> </ul> </div></div>
+🏗 Architecture
+Diagram
+Code
 
 graph TD
-  A[Manufacturer Org] -->|Registers Vehicles| B[Chaincode]
-  C[Dealer Org] -->|Reports Stolen| B
-  D[MVD Org] -->|Removes from Blacklist| B
-  B --> E[CouchDB Ledger]
-  B --> F[Emit Events]
+  A[Manufacturer] -->|Register Vehicle| B{Blockchain Network}
+  C[Dealership] -->|Report Stolen| B
+  D[MVD] -->|Update Status| B
+  B -->|Store Data| E[(CouchDB Ledger)]
+  B -->|Trigger Events| F[Event Hub]
+  F --> G[Notification Systems]
+  F --> H[Analytics Dashboard]
 
-🛠 Prerequisites
+🚀 Getting Started
+Prerequisites
+bash
 
-Tools Required:
+# System Requirements
+- Docker 20.10+
+- Go 1.18+
+- Node.js 16+
+- MiniFab 1.3+
 
-Docker + Docker Compose
+Installation
+bash
 
-Hyperledger Fabric v2.4.8
+# 1. Clone Repository
+git clone https://github.com/yourusername/VehicleBlacklistChain.git
 
-MiniFab
+# 2. Start Network
+./network/start_network.sh
 
-Go v1.18 or higher
+# 3. Deploy Chaincode
+minifab ccup -n vehiclecc -l go -v 1.0 -p ""
 
-Knowledge Base:
+# 4. Start Application
+cd application && npm install && node app.js
 
-Blockchain & Smart Contracts
+🎥 Demo
+bash
 
-Hyperledger Fabric Ecosystem
+# Create Vehicle
+peer chaincode invoke -n vehiclecc -c '{
+  "function":"CreateVehicle",
+  "Args":["VIN123", "Tesla Model S", "Black", "Elon Musk", "2023-07-15"]
+}'
 
-Basic GoLang
+# Report Stolen
+peer chaincode invoke -n vehiclecc -c '{
+  "function":"ReportStolen",
+  "Args":["VIN123", "Stolen from downtown garage"]
+}'
 
-⚙️ Setup & Installation
+# Remove from Blacklist
+peer chaincode invoke -n vehiclecc -c '{
+  "function":"RemoveFromBlacklist",
+  "Args":["VIN123"]
+}'
 
-Launch Fabric Network
+📜 License
+text
 
-minifab netup -s couchdb -e true -i 2.4.8 -o manufacturer.auto.com
+MIT License
 
-Create & Join Channel
+Copyright (c) 2023 Your Name
 
-minifab create -c autochannel
-minifab join -c autochannel
-minifab anchorupdate
+Permission is hereby granted... [Full License Text]
 
-🧩 Chaincode Deployment
-
-Place VehicleBlacklistContract.go in the /chaincode/ folder.
-
-Deploy using MiniFab or Fabric CLI:
-
-./start_network.sh       # Start Network
-./deploy_chaincode.sh    # Deploy Chaincode
-node app.js              # Client App
-
-🎬 Demo Walkthrough
-
-Example Flow:
-
-Create Vehicle
-
-peer chaincode invoke -n vehiclecc -c '{"function":"CreateVehicle", "Args":["V123", "ModelX", "Black", "Maneesh", "2025-04-01", "owner-auto-com"]}'
-
-Report as Stolen
-
-peer chaincode invoke -n vehiclecc -c '{"function":"ReportStolen", "Args":["V123", "Reported stolen from parking"]}'
-
-Remove from Blacklist
-
-peer chaincode invoke -n vehiclecc -c '{"function":"RemoveFromBlacklist", "Args":["V123"]}'
-
-✅ Testing & Validation
-
-Write unit tests using mockstub
-
-Validate:
-
-Role-based access with MSPID
-
-Contract logic and ledger updates
-
-Event emissions
-
-📄 License & Credits
-
-Licensed under the MIT License
-
-
-
-
-
-
-//////////////////////////////////////////////
+<div align="center" style="margin-top: 40px;"> <img src="https://visitor-badge.laobi.icu/badge?page_id=VehicleBlacklistChain" alt="Visitor Count"> <br> <p style="color: #888;">Made with ❤️ using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;"> <img src="https://img.icons8.com/color/48/000000/hyperledger.png" width="40"> <img src="https://img.icons8.com/color/48/000000/golang.png" width="40"> <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"> </div> </div><style> h1, h2, h3 { font-family: 'Fira Code', monospace; } a { color: #FF007F; text-decoration: none; transition: all 0.3s ease; } a:hover { color: #FF69B4; text-shadow: 0 0 8px rgba(255,0,127,0.4); } </style>
