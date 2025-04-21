@@ -11,16 +11,6 @@ Project: Hyperledger Fabric Network
     alt="Typing SVG" 
   />
 </div>
-
-
-
-
-
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F000&width=435&lines=VEHICLE BLACKLIST CHAIN" alt="Typing SVG" />
-
-  
-
-</div>
 ---
 
 🚗 Project Overview
