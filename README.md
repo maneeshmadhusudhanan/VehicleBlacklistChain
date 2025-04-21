@@ -1,6 +1,3 @@
-# VEHICLE BLACKLIST CHAIN
-Project: Hyperledger Fabric Network
-
 
 
 
@@ -13,29 +10,38 @@ Project: Hyperledger Fabric Network
 </div>
 ---
 
+
 🚗 Project Overview
 
 Title: VehicleBlacklistChain
+
 Tagline: "Tamper-proof vehicle blacklisting and recovery system using Hyperledger Fabric."
 
-Why this Project?
+✨ Why This Project?
 
-> Ensure secure, transparent, and decentralized blacklisting of stolen vehicles. The platform facilitates seamless interaction between Manufacturers, Dealers, and Motor Vehicle Departments (MVD), leveraging blockchain's immutability.
+VehicleBlacklistChain provides a decentralized way to report, track, and remove blacklisted vehicles using a permissioned blockchain. It enhances:
 
+✅ Security: Tamper-proof audit history.
 
+✅ Transparency: Clear role-based access for stakeholders.
 
-Key Highlights
+✅ Automation: Instant event triggers and seamless flow.
 
-Blockchain-powered trust with Hyperledger Fabric.
+📊 Key Highlights
 
-Role-based access using MSP IDs.
+🔗 Blockchain-powered trust with Hyperledger Fabric.
 
-Live event tracking with VehicleBlacklistedEvent and VehicleRecoveredEvent.
+👤 Role-based Access Control (ABAC) using MSP IDs.
 
-Full vehicle audit history using Fabric’s ledger.
+✨ Live Event Tracking:
 
+VehicleBlacklistedEvent
 
-Who is this for?
+VehicleRecoveredEvent
+
+📃 Full Vehicle Audit History using Fabric ledger state and history APIs.
+
+👥 Target Users
 
 Auto Manufacturers
 
@@ -45,11 +51,7 @@ Government Transport Bodies (MVD)
 
 Blockchain Developers / Enthusiasts
 
-
-
----
-
-🧱 Architecture Overview
+🛠 Architecture Overview
 
 graph TD
   A[Manufacturer Org] -->|Registers Vehicles| B[Chaincode]
@@ -58,14 +60,9 @@ graph TD
   B --> E[CouchDB Ledger]
   B --> F[Emit Events]
 
+🛠 Prerequisites
 
-
-
----
-
-🛠️ Prerequisites
-
-Tools:
+Tools Required:
 
 Docker + Docker Compose
 
@@ -73,74 +70,53 @@ Hyperledger Fabric v2.4.8
 
 MiniFab
 
-Go (v1.18 or above)
+Go v1.18 or higher
 
-
-Knowledge:
+Knowledge Base:
 
 Blockchain & Smart Contracts
 
 Hyperledger Fabric Ecosystem
 
-GoLang Basics
-
-
-
----
+Basic GoLang
 
 ⚙️ Setup & Installation
 
-# Launch Fabric Network
+Launch Fabric Network
+
 minifab netup -s couchdb -e true -i 2.4.8 -o manufacturer.auto.com
 
-# Create & Join Channel
+Create & Join Channel
+
 minifab create -c autochannel
 minifab join -c autochannel
 minifab anchorupdate
 
 🧩 Chaincode Deployment
 
-Place your VehicleBlacklistContract inside chaincode/.
+Place VehicleBlacklistContract.go in the /chaincode/ folder.
 
-Deploy using MiniFab or Fabric CLI commands.
+Deploy using MiniFab or Fabric CLI:
 
-
-
----
-
-⚡ Quick Start
-
-./start_network.sh         # Start Hyperledger Fabric Network
-./deploy_chaincode.sh     # Deploy Chaincode
-node app.js               # Run your client app
-
-
----
+./start_network.sh       # Start Network
+./deploy_chaincode.sh    # Deploy Chaincode
+node app.js              # Client App
 
 🎬 Demo Walkthrough
 
 Example Flow:
 
-1. Create Vehicle
+Create Vehicle
 
+peer chaincode invoke -n vehiclecc -c '{"function":"CreateVehicle", "Args":["V123", "ModelX", "Black", "Maneesh", "2025-04-01", "owner-auto-com"]}'
 
+Report as Stolen
 
-peer chaincode invoke -n vehiclecc -c '{"function":"CreateVehicle", ...}'
+peer chaincode invoke -n vehiclecc -c '{"function":"ReportStolen", "Args":["V123", "Reported stolen from parking"]}'
 
-2. Report Stolen
+Remove from Blacklist
 
-
-
-peer chaincode invoke -n vehiclecc -c '{"function":"ReportStolen", ...}'
-
-3. Recover Vehicle
-
-
-
-peer chaincode invoke -n vehiclecc -c '{"function":"RemoveFromBlacklist", ...}'
-
-
----
+peer chaincode invoke -n vehiclecc -c '{"function":"RemoveFromBlacklist", "Args":["V123"]}'
 
 ✅ Testing & Validation
 
@@ -148,24 +124,19 @@ Write unit tests using mockstub
 
 Validate:
 
-Access control via MSP
+Role-based access with MSPID
 
-Chaincode functions
+Contract logic and ledger updates
 
-Event emission and ledger updates
+Event emissions
+
+📄 License & Credits
+
+Licensed under the MIT License
 
 
 
 
 
-© License & Credits
 
-Licensed under the MIT License.
-Special thanks to:
-
-Hyperledger Fabric Core Team
-
-MiniFab Developers
-
-Open Source Contributors
-
+//////////////////////////////////////////////
