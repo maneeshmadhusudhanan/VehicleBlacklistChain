@@ -1,15 +1,19 @@
 
 
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&duration=3000&pause=1000&color=FF007F&background=FFFFFF20&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%9A%97+VEHICLE+BLACKLIST+CHAIN?v=3" alt="Vehicle Blacklist Chain" />
+</p>
+
+
+
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&duration=3000&pause=1000&color=FF007F&background=FFB3D899&center=true&vCenter=true&width=800&height=80&lines=🚗+VEHICLE+BLACKLIST+CHAIN;%F0%9F%94%90_Trusted+%7C+Immutable+%7C+Decentralized_%F0%9F%94%92" alt="Header">
 </div>
 
-<div align="center">
-  <br>
-  <img src="https://img.shields.io/badge/Blockchain-3DDC84?style=for-the-badge&logo=blockchain-dot-com&logoColor=white">
-  <img src="https://img.shields.io/badge/Hyperledger-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white">
-  <img src="https://img.shields.io/badge/Smart_Contracts-FF6C37?style=for-the-badge&logo=ethereum&logoColor=white">
-</div>
+>
 
 
 
@@ -22,6 +26,7 @@
 
 <div align="center">
   <br>
+    <img src="https://img.shields.io/badge/Blockchain-3DDC84?style=for-the-badge&logo=blockchain-dot-com&logoColor=white">
   <img src="https://img.shields.io/badge/hyperledger-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white">
   <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
