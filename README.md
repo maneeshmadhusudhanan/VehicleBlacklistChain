@@ -101,7 +101,7 @@
 
 ## 🏗 Architecture
 
-```mermaid
+
 graph TD
   A[Manufacturer] -->|Register Vehicle| B{Blockchain Network}
   C[Dealership] -->|Report Stolen| B
@@ -126,7 +126,7 @@ Prerequisites
 Installation
 
 # Clone Repository
-git clone https://github.com/yourusername/VehicleBlacklistChain.git
+git clone https://github.com/maneeshmadhusudhanan/VehicleBlacklistChain/edit/main/README.md
 
 # Start Network
 cd VehicleBlacklistChain
@@ -166,6 +166,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<div align="center" style="margin-top: 40px;"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Project%20Visitors&color=ff007f&style=flat" alt="Visitor counter"> <br> <p style="color: #888;">Made By Developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;"> <img src="https://img.icons8.com/color/48/000000/hyperledger.png" width="40"> <img src="https://img.icons8.com/color/48/000000/golang.png" width="40"> <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"> </div> </div>
+<div align="center" style="margin-top: 40px;"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Project%20Visitors&color=ff007f&style=flat" alt="Visitor counter"> <br> <p style="color: #888;">Made By Developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">  </div> </div>
 
 
