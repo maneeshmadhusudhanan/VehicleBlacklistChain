@@ -166,6 +166,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<div align="center" style="margin-top: 40px;"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Project%20Visitors&color=ff007f&style=flat" alt="Visitor counter"> <br> <p style="color: #888;">Made By Developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">  </div> </div>
+<div align="center" style="margin-top: 40px;"> <br> <p style="color: #888;">Made By Developer MANEESH Madhusudhanan using Hyperledger Fabric</p> <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">  </div> </div>
 
 
