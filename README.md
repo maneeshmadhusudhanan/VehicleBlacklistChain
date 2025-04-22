@@ -69,7 +69,7 @@
   <h3 style="color: #FF007F;">🔐 Role-Based Access</h3>
   <p style="color: #CCCCCC;">Granular permissions through MSP IDs:</p>
   <ul style="color: #AAAAAA;">
-    <li>Manufacturers: Vehicle registration</li>
+    <li>Owner: Vehicle registration</li>
     <li>Dealers: Stolen reporting</li>
     <li>MVD: Blacklist management</li>
   </ul>
