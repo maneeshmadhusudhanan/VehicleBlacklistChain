@@ -103,7 +103,7 @@
 
 
 graph TD
-  A[Manufacturer] -->|Register Vehicle| B{Blockchain Network}
+  A[Owner] -->|Register Vehicle| B{Blockchain Network}
   C[Dealership] -->|Report Stolen| B
   D[MVD] -->|Update Status| B
   B -->|Store Data| E[(CouchDB Ledger)]
