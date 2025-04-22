@@ -36,7 +36,7 @@ func (v *VehicleBlacklistContract) VehicleExists(ctx contractapi.TransactionCont
 	return data != nil, nil
 }
 
-// ========== Manufacturer: Create Vehicle ==========
+// ========== Owner: Create Vehicle ==========
 func (c *VehicleBlacklistContract) CreateVehicle(ctx contractapi.TransactionContextInterface, vehicleId string, model string, color string,ownername string, dateOfManufacture string, registeredBy string) (string, error) {
 	clientOrgID, err := ctx.GetClientIdentity().GetMSPID()
 	if err != nil {
