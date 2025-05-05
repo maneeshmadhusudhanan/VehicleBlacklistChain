@@ -98,24 +98,6 @@
 </div>
 
 ---
-
-## 🏗 Architecture
-
-
-graph TD
-  A[Owner] -->|Register Vehicle| B{Blockchain Network}
-  C[Dealership] -->|Report Stolen| B
-  D[MVD] -->|Update Status| B
-  B -->|Store Data| E[(CouchDB Ledger)]
-  B -->|Trigger Events| F[Event Hub]
-  F --> G[Notification Systems]
-  F --> H[Analytics Dashboard]
-
-
-🚀 Getting Started
-
-Prerequisites
-
 # System Requirements
 - Docker 20.10+
 - Go 1.18+
